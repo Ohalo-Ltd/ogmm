@@ -1,0 +1,12 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+#service: email
+
+default_expiration: "7d"
+
+handlers:
+
+- url: /.*
+  script: main.app
+  secure: always
