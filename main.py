@@ -1,8 +1,8 @@
 import webapp2
-from api import APIHandler
+from api import ListingHandler
 
 app = webapp2.WSGIApplication(
     [    
-       ("/*", APIHandler),
+       ("/*", ListingHandler),
     ],
     debug=True)
