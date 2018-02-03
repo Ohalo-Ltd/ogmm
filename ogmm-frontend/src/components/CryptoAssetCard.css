@@ -1,0 +1,25 @@
+.crypto-card {
+    width: 80%;
+    margin: 20px auto;
+    font-size: small;
+}
+
+.crypto-card .details {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.crypto-card .description {
+    width: 95%;
+    margin: 10px auto 0 auto;
+}
+
+.crypto-card .details .category {
+    font-weight: bold;
+    text-align: right;
+}
+
+.crypto-card .details .code {
+    color: grey;
+    font-family: Menlo, "Courier New", monospace;
+}

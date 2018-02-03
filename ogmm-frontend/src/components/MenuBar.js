@@ -8,7 +8,7 @@ class MenuBar extends Component {
     return (
       <div id="menu-bar-parent">
         <div className="menu-bar-center">
-          <Link to="/selling">selling</Link> | <Link to="/seeking">seeking</Link> | <Link to="/post">post</Link>
+          <Link to="/selling">for sale</Link> | <Link to="/seeking">seeking</Link> | <Link to="/post">post</Link>
         </div>
       </div>
     )
