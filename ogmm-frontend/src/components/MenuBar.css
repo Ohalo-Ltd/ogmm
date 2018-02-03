@@ -1,0 +1,10 @@
+
+#menu-bar-parent {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#menu-bar-parent .center {
+    margin: auto;
+}
